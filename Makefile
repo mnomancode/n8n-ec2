@@ -34,4 +34,3 @@ docker-up: build-image
         @if docker network inspect n8n_network > /dev/null 2>&1; then \
                 echo "Network 'n8n_network' already exists, hopping to the next task 🦘."; \
         else \
-"Makefile" [readonly] 68L, 2586B                                                                                                                    1,1           Top

@@ -34,5 +34,3 @@ ENV SHELL=/bin/sh
 # Use tini as the init system to ensure proper shutdown of n8n and to handle signals correctly
 # The entrypoint executes n8n using tini
 ENTRYPOINT ["/sbin/tini", "--", "n8n"]
-~                                                                                                                                                                     
-"Dockerfile" [readonly] 36L, 1637B                                                                                                                  36,1          All
